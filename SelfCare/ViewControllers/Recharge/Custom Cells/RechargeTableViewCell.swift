@@ -10,6 +10,13 @@ import UIKit
 
 class RechargeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var selectionImage: UIImageView!
+    @IBOutlet weak var planLabel: UILabel!
+    @IBOutlet weak var validityLabel: UILabel!
+    @IBOutlet weak var benefitsLabel: UILabel!
+    @IBOutlet weak var infoImage: UIImageView!
+    @IBOutlet weak var baseView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

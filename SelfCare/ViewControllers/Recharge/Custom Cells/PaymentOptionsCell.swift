@@ -10,6 +10,10 @@ import UIKit
 
 class PaymentOptionsCell: UITableViewCell {
 
+    @IBOutlet weak var optionLabel: UILabel!
+    @IBOutlet weak var selectionImage: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

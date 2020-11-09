@@ -5,3 +5,89 @@
   Created by Sagar Ranshur on 25/05/20.
   Copyright © 2020 Sagar Ranshur. All rights reserved.
 */
+
+"FAQ" = "FAQ";
+
+"How to Videos" = "How to Videos";
+
+"Troubleshoot" = "Troubleshoot";
+
+"Helpful Tips" = "Helpful Tips";
+
+"Live Chat" = "Live Chat";
+
+"Track Request" = "Track Request";
+
+"Track Order" = "Track Order";
+
+"Locate us" = "Locate us";
+
+"View" = "View";
+
+"Buy" = "Buy";
+
+"History" = "History";
+
+"Month" = "Month";
+
+"Select Month" = "Select Month";
+
+"Year" = "Year";
+
+"Select Year" = "Select Year";
+
+"Weight" = "Weight";
+
+"Debit Card/ATM" = "Debit Card/ATM";
+
+"Net Banking" = "Net Banking";
+
+"Credit Card" = "Credit Card";
+
+"Welcome Guest" = "Welcome Guest";
+
+"Welcome User" = "Welcome User";
+
+"Base Tariff" = "Base Tariff";
+
+"International Tariff" = "International Tariff";
+
+"Tariff" = "Tariff";
+
+"Please enter contact number" = "Please enter contact number";
+
+"Please enter valid mobile number" = "Please enter valid mobile number";
+
+"Please enter password" = "Please enter password";
+
+"Unable To connect to server please try again!" = "Unable To connect to server please try again!";
+
+"Please enter fullname" = "Please enter fullname";
+
+"Please enter email Id" = "Please enter email Id";
+
+"Please enter valid email Address" = "Please enter valid email Address";
+
+"Please enter Confirm Password" = "Please enter Confirm Password";
+
+"Password & Confirm password should be same!" = "Password & Confirm password should be same!";
+
+"Failed to get Lat Long,please try again!" = "Failed to get Lat Long,please try again!";
+
+"Password" = "Password";
+
+"Contact Number" = "Contact Number";
+
+"Fullname" = "Fullname";
+
+"Email Id" = "Email Id";
+
+"Confirm Password" = "Confirm Password";
+
+"English" = "English";
+
+"Portuguese" = "Portuguese";
+
+"Please enter organization name" = "Please enter organization name";
+
+"Please enter valid organization name" = "Please enter valid organization name";

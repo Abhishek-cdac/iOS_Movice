@@ -10,6 +10,16 @@ import UIKit
 
 class VoucherCustomTableCell: UITableViewCell {
 
+    @IBOutlet weak var baseView: UIView!
+    @IBOutlet weak var leftCashBackView: UIView!
+    @IBOutlet weak var cashbackLabel: UILabel!
+    @IBOutlet weak var cashbackAmountLabel: UILabel!
+    
+    @IBOutlet weak var selectBtn: UIButton!
+    @IBOutlet weak var quantityLabel: UILabel!
+    @IBOutlet weak var transferableLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +30,8 @@ class VoucherCustomTableCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    @IBAction func selectBtnClicked(_ sender: UIButton) {
+        
+    }
 }

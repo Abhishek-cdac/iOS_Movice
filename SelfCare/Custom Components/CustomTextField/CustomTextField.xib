@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="CustomField" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextField" customModule="SelfCare" customModuleProvider="target">
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
                     <color key="value" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,7 +41,7 @@
                             </connections>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6U-Ua-0IC">
-                            <rect key="frame" x="10" y="-10" width="0.0" height="21"/>
+                            <rect key="frame" x="4" y="-10" width="0.0" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="C8j-7a-Csd"/>
                             </constraints>
@@ -73,7 +73,7 @@
                         <constraint firstItem="64S-0t-bpq" firstAttribute="leading" secondItem="EAV-gg-fCl" secondAttribute="leading" constant="4" id="dQj-Nh-NqC"/>
                         <constraint firstAttribute="trailing" secondItem="iCI-Pf-ZbQ" secondAttribute="trailing" id="g3W-LH-OV5"/>
                         <constraint firstItem="S6U-Ua-0IC" firstAttribute="top" secondItem="EAV-gg-fCl" secondAttribute="top" constant="-10" id="iDf-JZ-LRm"/>
-                        <constraint firstItem="S6U-Ua-0IC" firstAttribute="leading" secondItem="EAV-gg-fCl" secondAttribute="leading" constant="10" id="m2s-5b-tU4"/>
+                        <constraint firstItem="S6U-Ua-0IC" firstAttribute="leading" secondItem="EAV-gg-fCl" secondAttribute="leading" constant="4" id="m2s-5b-tU4"/>
                         <constraint firstItem="7mH-Bb-pjJ" firstAttribute="leading" secondItem="64S-0t-bpq" secondAttribute="leading" id="qcf-5h-jDB"/>
                         <constraint firstAttribute="trailing" secondItem="64S-0t-bpq" secondAttribute="trailing" constant="4" id="u1X-sf-2YI"/>
                         <constraint firstAttribute="height" constant="45" id="u8Y-f7-cV0"/>

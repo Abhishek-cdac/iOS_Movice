@@ -18,10 +18,10 @@ class CustomTextField: UIView, UITextFieldDelegate {
     
     @IBInspectable var placeHolder: String = "" {
         didSet {
-            self.textField.placeholder = placeHolder
+            self.textField.placeholder = placeHolder.localised()
         }
     }
-    
+        
     @IBInspectable var activeColor : UIColor = .black {
         didSet {
             self.placeHolderLabel.textColor = activeColor
@@ -32,9 +32,10 @@ class CustomTextField: UIView, UITextFieldDelegate {
     var selectionColor : UIColor?
     var underlineColor : UIColor?
     var errorColor : UIColor?
-
-    let nibName = "CustomTextField"
+    var isMobile : Bool = false
+    var extensionStr : String = ""
     
+    let nibName = "CustomTextField"
     
     var contentView : UIView?
     
@@ -61,6 +62,7 @@ class CustomTextField: UIView, UITextFieldDelegate {
     }
     
     func customSetUp() {
+    
         placeHolderLabel.text = ""
         underlineView.backgroundColor = activeColor
         textField.placeholder = placeHolder
@@ -71,7 +73,9 @@ class CustomTextField: UIView, UITextFieldDelegate {
     }
     
     func changeTextProperties() {
-        placeHolderLabel.text = placeHolder
+        
+        placeHolderLabel.text = NSLocalizedString(placeHolder, comment: "")
+//        placeHolderLabel.text = placeHolder
         placeHolderLabel.textColor = activeColor
         underlineView.backgroundColor = activeColor
         textField.textColor = activeColor
@@ -79,6 +83,9 @@ class CustomTextField: UIView, UITextFieldDelegate {
     }
     
     func resetTextField() {
+        if isMobile {
+            textField.text = ""
+        }
         placeHolderLabel.text = ""
         underlineView.backgroundColor = activeColor
         textField.textColor = activeColor
@@ -102,7 +109,13 @@ class CustomTextField: UIView, UITextFieldDelegate {
     //MARK: - Text field delegate methods
     //MARK: -
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        changeTextProperties()
+        if isMobile {
+            if textField.text?.count == 0 {
+                textField.text = extensionStr + " "
+            }
+        }
+
+//        changeTextProperties()
     }
     
     @objc func textDidChange(_ textField: UITextField) {
@@ -111,5 +124,23 @@ class CustomTextField: UIView, UITextFieldDelegate {
         }else {
             changeTextProperties()
         }
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if isMobile {
+            if textField.text?.count == 0 {
+                textField.text = extensionStr + " "
+                return false
+            }else if string == "" {
+                if textField.text?.count == 5 {
+                    return false
+                }
+            }            
+            let aSet = NSCharacterSet(charactersIn:"0123456789").inverted
+            let compSepByCharInSet = string.components(separatedBy: aSet)
+            let numberFiltered = compSepByCharInSet.joined(separator: "")
+            return string == numberFiltered
+        }
+        return true
     }
 }

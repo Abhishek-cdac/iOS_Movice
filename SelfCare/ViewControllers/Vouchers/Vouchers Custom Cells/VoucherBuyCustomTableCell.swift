@@ -8,8 +8,19 @@
 
 import UIKit
 
+protocol VoucherBuyDelegate {
+    func selectionButtonMethod(indexPath: IndexPath)
+}
+
 class VoucherBuyCustomTableCell: UITableViewCell {
 
+    @IBOutlet weak var baseView: UIView!
+    @IBOutlet weak var selectionBtn: UIButton!
+    
+    var index : IndexPath?
+    
+    var buyDelegate: VoucherBuyDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +31,10 @@ class VoucherBuyCustomTableCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    @IBAction func selectionBtnClicked(_ sender: UIButton) {
+        buyDelegate?.selectionButtonMethod(indexPath: index!)
+    }
+    
 
 }

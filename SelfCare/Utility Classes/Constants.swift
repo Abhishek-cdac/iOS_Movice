@@ -36,12 +36,11 @@ struct Constants {
         static let   usergeofence            = "usergeofence?"
         static let   notificationgeo         = "notificationgeo?"
         static let   notificationhistry      = "notificationhistry?"
-
     }
     
     struct HardcodedData {
-        static let monthsArray = ["January", "February","March","April","May","June","July","August","September","October","November","December"]
-        static let yearArray = ["2019","2020"]
+        static let monthsArray = ["Jan", "Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
+        static let yearArray = ["2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030","2031","2032","2033","2034","2035","2036","2037","2038","2039","2040","2041"]
         //screen cgrect details
         static let screenHeight = UIScreen.main.bounds.height
         static let screenWidth = UIScreen.main.bounds.width
@@ -58,7 +57,7 @@ struct Constants {
     struct HexColors
     {
         static let wfmsBlue = "#49B3CB"
-        static let activeColor = "#333366"
+        static let activeColor = "#E70D2D"
         static let wfmsCyan = "#34CBCC"
     }
     
@@ -68,46 +67,28 @@ struct Constants {
     
     struct UserDefaults {
         static let firstTimeUser = "isUserLogin"
+        static let isGuestUser = "isGuestLogin"
         static let rememberMeClicked = "rememberMeClicked"
         static let clientNameStr = "ClientName"
         static let userDetails = "UserDetails"
+        static let applanguages = "AppleLanguages"
+        static let selectedLanguage = "AppLanguage"
     }
     
     struct validationMesages {
         
-        static let emptyOrgnizationName = "Please enter orgnization name"
-        static let emptyUsername        = "Please enter email id"
-        static let validateEmailid      = "Please enter valid email id"
-        static let emptypassword        = "Please enter password"
-
-        static let emptyClientName           = "The clientname field is required."
-        static let tryAgainError             = "Please try again"
-        static let unableToConnect           = "Unable to connect to server"
-        
-        static let biometricAuthErrorMsg     = "You could not be verified; please try again!"
-        static let biometricAuthErrorTitle   = "Authentication failed!"
-        
-        static let emptyRecords              = "No Records Found!"
-        static let uploadImageSuccess        = "Image uploaded successfully"
-        static let emptyUserSelection        = "Please select User"
-        static let emptyYearSelection        = "Please select Year"
-        static let emptyMonthSelection       = "Please select Month"
-        static let emptyOldpassword          = "Please enter old password"
-        static let emptyNewPassword          = "Please enter new password"
-        static let emptyConfirmPassword      = "Please enter confirmed password"
-        static let passwordMismatch          = "New password & Confirm password does not match"
-        
-        //Add Geofence Screen
-        static let emptyGeofenceName         = "Plase enter geofence name"
-        static let emptyGeofenceType         = "Please select geofence type"
-        static let emptyGeofenceAddrs        = "Please enter geofence address"
-        static let emptyLattitude            = "Please enter Latitude"
-        static let emptyLongitude            = "Please enter Longitute"
-        static let emptyRadius               = "Please enter Radius"
-        static let emptyDestGeofenceAddrs    = "Please enter destination geofence address"
-        static let emptyDestLatitude         = "Please enter destination Latitude"
-        static let emptyDestLongitute        = "Please enter destination Longitude"
-        static let userAuthorizationError    = "User is not authorized."
+        static let emptyOrganization    = "Please enter organization name"
+        static let validOrganization    = "Please enter valid organization name"
+        static let emptyContactNo       = "Please enter contact number".localised()
+        static let validatemobile       = "Please enter valid mobile number".localised()
+        static let emptyPassword        = "Please enter password".localised()
+        static let unableToConnect      = "Unable To connect to server please try again!".localised()
+        static let emptyFullname        = "Please enter fullname".localised()
+        static let emptyEmailId         = "Please enter email Id".localised()
+        static let validEmailId         = "Please enter valid email Address".localised()
+        static let emptyConfPassword    = "Please enter Confirm Password".localised()
+        static let passwordMismatch     = "Password & Confirm password should be same!".localised()
+        static let mobileNoValidation   = "Mobile number should be start from 91 or 99".localised()
     }
     
     struct Fonts {

@@ -8,11 +8,16 @@
 
 import UIKit
 
+
 class ServiceCenterTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var baseView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        baseView.elevate(elevation: 2.0)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

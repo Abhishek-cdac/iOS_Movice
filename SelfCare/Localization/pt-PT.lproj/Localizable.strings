@@ -5,3 +5,108 @@
   Created by Sagar Ranshur on 25/05/20.
   Copyright © 2020 Sagar Ranshur. All rights reserved.
 */
+
+
+"FAQ" = "Perguntas frequentes";
+
+"Como Vídeos" = "Como Vídeos";
+
+"Troubleshoot" = "Solucionar problemas";
+
+"Helpful Tips" = "Dicas úteis";
+
+"Live Chat" = "Bate-papo ao vivo";
+
+"Track Request" = "Rastrear Solicitação";
+
+"Track Order" = "Acompanhar Pedido";
+
+"Locate us" = "Localize-nos";
+
+"View" = "Visão";
+
+"Buy" = "Comprar";
+
+"History" = "História";
+
+"Month" = "Mês";
+
+"Select Month" = "Selecione o mês";
+
+"Year" = "Ano";
+
+"Select Year" = "Selecione o ano";
+
+"Weight" = "Peso";
+
+"Select Weight" = "";
+
+"Kilograms" = "";
+
+"Height" = "";
+
+"Select Height" = "";
+
+"Centimeters" = "";
+
+"Debit Card/ATM" = "Cartão de Débito / ATM";
+
+"Net Banking" = "Net Banking";
+
+"Credit Card" = "Cartão de crédito";
+
+"Welcome Guest" = "Bem vindo convidado";
+
+"Welcome User" = "Bem-vindo Usuário";
+
+"Base Tariff" = "Tarifa Base";
+
+"International Tariff" = "Tarifa Internacional";
+
+"Tariff" = "Tarifa";
+
+"Please enter contact number" = "Digite o número de contato";
+
+"Please enter valid mobile number" = "Digite um número de celular válido";
+
+"Please enter password" = "Digite a senha";
+
+"Unable To connect to server please try again!" = "Não foi possível conectar ao servidor, tente novamente!";
+
+"Please enter fullname" = "Digite o nome completo";
+
+"Please enter email Id" = "Digite o ID do e-mail";
+
+"Please enter valid email Address" = "Por favor insira o endereço de e-mail válido";
+
+"Please enter Confirm Password" = "Digite Confirmar Senha";
+
+"Password & Confirm password should be same!" = "Senha e Confirmar senha devem ser iguais!";
+
+"English" = "Inglês";
+
+"Portuguese" = "Português";
+
+"Failed to get Lat Long,please try again!" = "Falha ao obter o Lat Long, tente novamente!";
+
+"Contact Number" = "Número de contato";
+
+"Password" = "Senha";
+
+"Fullname" = "Nome completo";
+
+"Email Id" = "Identificação do email";
+
+"Confirm Password" = "Confirme a Senha";
+
+"Sign Up" = "Inscrever-se";
+
+"Your app language changed successfully!" = "O idioma do seu aplicativo foi alterado com sucesso!";
+
+"Success" = "Sucesso";
+
+"Mobile number should be start from 91 or 99" = "O número do celular deve começar de 91 ou 99";
+
+"Please enter organization name" = "Digite o nome da organização";
+
+"Please enter valid organization name" = "Digite o nome válido da organização";

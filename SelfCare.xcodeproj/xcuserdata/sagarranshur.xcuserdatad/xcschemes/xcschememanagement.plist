@@ -7,7 +7,25 @@
 		<key>SelfCare.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>29</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7B35ECD8246926A80022E0EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B35ECEE246926AD0022E0EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B35ECF9246926AD0022E0EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

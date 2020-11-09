@@ -10,4 +10,5 @@ import UIKit
 
 class PromotionsCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var image: UIImageView!
 }

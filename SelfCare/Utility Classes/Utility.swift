@@ -10,7 +10,23 @@ import UIKit
 import Alamofire
 import KRProgressHUD
 
+
 class Utility: NSObject {
+    
+    static let customAlertView = CustomAlertView()
+    
+    static func setUpAlert(isSingle: Bool, isSuccessAlert: Bool, title: String, message: String,image: String) {
+        
+        customAlertView.setupAlertWith(isSingle: isSingle, isSuccess: isSuccessAlert, title: title, message: message, image: image)
+    }
+    
+    static func showCustomAlert() {
+        customAlertView.showAlert(view: customAlertView.contentView!)
+    }
+    
+    static func removeAlert() {
+        customAlertView.removeAlert(view: customAlertView.contentView!)
+    }
     
     //Return app version. e.g 1.0
     static func getAppVersion() -> String

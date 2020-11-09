@@ -10,11 +10,19 @@ import UIKit
 
 class MovicelCareFAQDetailsVC: UIViewController {
 
+    
+    @IBOutlet weak var mobileNoTxt: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        mobileNoTxt.text = Constants.singleton.contactNo
     }
+    
+    
+    @IBAction func backBtnClicked(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
+    
     
 
     /*

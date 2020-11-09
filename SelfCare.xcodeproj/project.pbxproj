@@ -3,18 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0451D93F24751BB6006CC1AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451D93E24751BB6006CC1AD /* ChatViewController.swift */; };
+		0D5020DDF557A37820A27FFF /* Pods_SelfCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C4C011DFD6E7433A5668D1 /* Pods_SelfCare.framework */; };
+		342C546B98123E7FBE52090D /* Pods_SelfCare_SelfCareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CCD42AA0B6368BD31B81D2 /* Pods_SelfCare_SelfCareUITests.framework */; };
+		7B10EAC224739AB900FF479F /* MovicelCareLocateUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10EAC124739AB900FF479F /* MovicelCareLocateUsVC.swift */; };
+		7B10EAC42473BED500FF479F /* ServiceCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10EAC32473BED500FF479F /* ServiceCenterTableViewCell.swift */; };
 		7B35ECDD246926A80022E0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ECDC246926A80022E0EA /* AppDelegate.swift */; };
 		7B35ECDF246926A80022E0EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ECDE246926A80022E0EA /* SceneDelegate.swift */; };
-		7B35ECE1246926A80022E0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ECE0246926A80022E0EA /* ViewController.swift */; };
 		7B35ECE4246926A80022E0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B35ECE2246926A80022E0EA /* Main.storyboard */; };
 		7B35ECE6246926AD0022E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B35ECE5246926AD0022E0EA /* Assets.xcassets */; };
 		7B35ECE9246926AD0022E0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B35ECE7246926AD0022E0EA /* LaunchScreen.storyboard */; };
 		7B35ECF4246926AD0022E0EA /* SelfCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ECF3246926AD0022E0EA /* SelfCareTests.swift */; };
 		7B35ECFF246926AD0022E0EA /* SelfCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ECFE246926AD0022E0EA /* SelfCareUITests.swift */; };
+		7B35ED12246929010022E0EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35ED11246929010022E0EA /* LoginViewController.swift */; };
+		7B35F084246E53AA00D363F4 /* VoucherHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B35F083246E53AA00D363F4 /* VoucherHistoryTableViewCell.swift */; };
+		7B3BF7A3246BAE7A00A14173 /* PaymentCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BF7A2246BAE7A00A14173 /* PaymentCardsVC.swift */; };
+		7B3BF7A5246BD2D800A14173 /* PaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BF7A4246BD2D800A14173 /* PaymentSuccessViewController.swift */; };
+		7B3BF7A8246BF51200A14173 /* AlertPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BF7A7246BF51100A14173 /* AlertPopViewController.swift */; };
+		7B3BF7AB246C21C500A14173 /* VoucherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BF7AA246C21C500A14173 /* VoucherListViewController.swift */; };
+		7B49DEE52477914100ED58C4 /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49DEE42477914100ED58C4 /* PlansViewController.swift */; };
+		7B49DEE72477936400ED58C4 /* PlansTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49DEE62477936400ED58C4 /* PlansTableViewCell.swift */; };
+		7B50E4AD24724BEC00FAC222 /* MovicelCareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4AC24724BEC00FAC222 /* MovicelCareVC.swift */; };
+		7B50E4B02472525B00FAC222 /* MovicelCareOptionsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4AF2472525B00FAC222 /* MovicelCareOptionsCollectionCell.swift */; };
+		7B50E4B2247277B700FAC222 /* MovicelCareFAQDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4B1247277B700FAC222 /* MovicelCareFAQDetailsVC.swift */; };
+		7B50E4B424728E7200FAC222 /* TroubleShootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4B324728E7100FAC222 /* TroubleShootVC.swift */; };
+		7B50E4B72472AF7C00FAC222 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4B62472AF7C00FAC222 /* SignUpViewController.swift */; };
+		7B50E4BA2472B83E00FAC222 /* CouponsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50E4B92472B83E00FAC222 /* CouponsVC.swift */; };
+		7B5FD56F246D035600E18E81 /* VoucherCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5FD56E246D035600E18E81 /* VoucherCustomTableCell.swift */; };
+		7B64E304247CEAD000EFCC5C /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B64E303247CEAD000EFCC5C /* CustomAlertView.xib */; };
+		7B7522EF247669E900D8145C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7522EE247669E900D8145C /* SettingsViewController.swift */; };
+		7B75C6D02474F7B200736EA8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B75C6CF2474F7B200736EA8 /* SearchViewController.swift */; };
+		7B75C6D224754F4C00736EA8 /* GuestUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B75C6D124754F4C00736EA8 /* GuestUserViewController.swift */; };
+		7B75C6D52475622500736EA8 /* LanguageSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B75C6D42475622500736EA8 /* LanguageSelectionVC.swift */; };
+		7B7ADB2D2485270F008D6B13 /* CardNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7ADB2C2485270F008D6B13 /* CardNumberViewController.swift */; };
+		7B8400A0246AC5FA00E0FF27 /* PaymentOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84009F246AC5FA00E0FF27 /* PaymentOptionsCell.swift */; };
+		7BA8288C247BA4F3002D0EF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8288E247BA4F3002D0EF6 /* Localizable.strings */; };
+		7BA82891247BC68E002D0EF6 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA82890247BC68E002D0EF6 /* BundleExtension.swift */; };
+		7BB36DF5246A800D009A320F /* RechargeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB36DF4246A800D009A320F /* RechargeListViewController.swift */; };
+		7BB36DF8246A9BF5009A320F /* RechargeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB36DF7246A9BF5009A320F /* RechargeTableViewCell.swift */; };
+		7BB36DFA246A9C0B009A320F /* RechargeHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB36DF9246A9C0B009A320F /* RechargeHeaderTableViewCell.swift */; };
+		7BB36DFC246AB10A009A320F /* PaymentOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB36DFB246AB10A009A320F /* PaymentOptionsVC.swift */; };
+		7BB4344F2469640D0046FF75 /* PromotionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4344E2469640D0046FF75 /* PromotionsCollectionViewCell.swift */; };
+		7BBA9FDC246D18AE00C9DFED /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA9FDB246D18AE00C9DFED /* TabBarViewController.swift */; };
+		7BBA9FDE246D42B400C9DFED /* VoucherBuyCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA9FDD246D42B400C9DFED /* VoucherBuyCustomTableCell.swift */; };
+		7BF9E47324692ADF00A440EE /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E46E24692ADF00A440EE /* Singleton.swift */; };
+		7BF9E47424692ADF00A440EE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E46F24692ADF00A440EE /* Utility.swift */; };
+		7BF9E47524692ADF00A440EE /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47024692ADF00A440EE /* WebServices.swift */; };
+		7BF9E47624692ADF00A440EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47124692ADF00A440EE /* Extensions.swift */; };
+		7BF9E47724692ADF00A440EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47224692ADF00A440EE /* Constants.swift */; };
+		7BF9E47B24692B0D00A440EE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47824692B0D00A440EE /* CustomButton.swift */; };
+		7BF9E47C24692B0D00A440EE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47924692B0D00A440EE /* CustomLabel.swift */; };
+		7BF9E47D24692B0D00A440EE /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E47A24692B0D00A440EE /* CustomAlertView.swift */; };
+		7BF9E48124692FFC00A440EE /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BF9E47F24692FFB00A440EE /* CustomTextField.xib */; };
+		7BF9E48224692FFC00A440EE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E48024692FFC00A440EE /* CustomTextField.swift */; };
+		7BF9E4852469303000A440EE /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E4842469303000A440EE /* CircularProgressView.swift */; };
+		7BF9E48924693CC900A440EE /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9E48824693CC900A440EE /* DashboardVC.swift */; };
+		B5288F7F75A4BB6624214E83 /* Pods_SelfCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF5410711490C6456C9C40 /* Pods_SelfCareTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +83,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0451D93E24751BB6006CC1AD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1B3E59F512AE5767D94042F0 /* Pods-SelfCare-SelfCareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCare-SelfCareUITests.release.xcconfig"; path = "Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23CCD42AA0B6368BD31B81D2 /* Pods_SelfCare_SelfCareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfCare_SelfCareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4892CF5D5BD0C62D58E562 /* Pods-SelfCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCare.debug.xcconfig"; path = "Target Support Files/Pods-SelfCare/Pods-SelfCare.debug.xcconfig"; sourceTree = "<group>"; };
+		7B10EAC124739AB900FF479F /* MovicelCareLocateUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovicelCareLocateUsVC.swift; sourceTree = "<group>"; };
+		7B10EAC32473BED500FF479F /* ServiceCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCenterTableViewCell.swift; sourceTree = "<group>"; };
 		7B35ECD9246926A80022E0EA /* SelfCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B35ECDC246926A80022E0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B35ECDE246926A80022E0EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B35ECE0246926A80022E0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B35ECE3246926A80022E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B35ECE5246926AD0022E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B35ECE8246926AD0022E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +102,58 @@
 		7B35ECFA246926AD0022E0EA /* SelfCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B35ECFE246926AD0022E0EA /* SelfCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareUITests.swift; sourceTree = "<group>"; };
 		7B35ED00246926AD0022E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B35ED11246929010022E0EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7B35F083246E53AA00D363F4 /* VoucherHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		7B3BF7A2246BAE7A00A14173 /* PaymentCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCardsVC.swift; sourceTree = "<group>"; };
+		7B3BF7A4246BD2D800A14173 /* PaymentSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessViewController.swift; sourceTree = "<group>"; };
+		7B3BF7A7246BF51100A14173 /* AlertPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPopViewController.swift; sourceTree = "<group>"; };
+		7B3BF7AA246C21C500A14173 /* VoucherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListViewController.swift; sourceTree = "<group>"; };
+		7B49DEE42477914100ED58C4 /* PlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
+		7B49DEE62477936400ED58C4 /* PlansTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansTableViewCell.swift; sourceTree = "<group>"; };
+		7B50E4AC24724BEC00FAC222 /* MovicelCareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovicelCareVC.swift; sourceTree = "<group>"; };
+		7B50E4AF2472525B00FAC222 /* MovicelCareOptionsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovicelCareOptionsCollectionCell.swift; sourceTree = "<group>"; };
+		7B50E4B1247277B700FAC222 /* MovicelCareFAQDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovicelCareFAQDetailsVC.swift; sourceTree = "<group>"; };
+		7B50E4B324728E7100FAC222 /* TroubleShootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleShootVC.swift; sourceTree = "<group>"; };
+		7B50E4B62472AF7C00FAC222 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7B50E4B92472B83E00FAC222 /* CouponsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsVC.swift; sourceTree = "<group>"; };
+		7B5FD56E246D035600E18E81 /* VoucherCustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherCustomTableCell.swift; sourceTree = "<group>"; };
+		7B64E303247CEAD000EFCC5C /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
+		7B7522EE247669E900D8145C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7B75C6CF2474F7B200736EA8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7B75C6D124754F4C00736EA8 /* GuestUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestUserViewController.swift; sourceTree = "<group>"; };
+		7B75C6D42475622500736EA8 /* LanguageSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionVC.swift; sourceTree = "<group>"; };
+		7B7ADB2C2485270F008D6B13 /* CardNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberViewController.swift; sourceTree = "<group>"; };
+		7B84009F246AC5FA00E0FF27 /* PaymentOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsCell.swift; sourceTree = "<group>"; };
+		7BA82887247BA42F002D0EF6 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		7BA82888247BA430002D0EF6 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7BA8288D247BA4F3002D0EF6 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7BA8288F247BA4FD002D0EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BA82890247BC68E002D0EF6 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		7BB36DF4246A800D009A320F /* RechargeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeListViewController.swift; sourceTree = "<group>"; };
+		7BB36DF7246A9BF5009A320F /* RechargeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeTableViewCell.swift; sourceTree = "<group>"; };
+		7BB36DF9246A9C0B009A320F /* RechargeHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		7BB36DFB246AB10A009A320F /* PaymentOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsVC.swift; sourceTree = "<group>"; };
+		7BB4344E2469640D0046FF75 /* PromotionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BBA9FDB246D18AE00C9DFED /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7BBA9FDD246D42B400C9DFED /* VoucherBuyCustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherBuyCustomTableCell.swift; sourceTree = "<group>"; };
+		7BF9E46E24692ADF00A440EE /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7BF9E46F24692ADF00A440EE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7BF9E47024692ADF00A440EE /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		7BF9E47124692ADF00A440EE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7BF9E47224692ADF00A440EE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7BF9E47824692B0D00A440EE /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7BF9E47924692B0D00A440EE /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		7BF9E47A24692B0D00A440EE /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		7BF9E47F24692FFB00A440EE /* CustomTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		7BF9E48024692FFC00A440EE /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7BF9E4842469303000A440EE /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7BF9E48824693CC900A440EE /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		7E52C858A1C6FEC572C12819 /* Pods-SelfCare-SelfCareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCare-SelfCareUITests.debug.xcconfig"; path = "Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94049DD7DA52AC08C202EF12 /* Pods-SelfCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCare.release.xcconfig"; path = "Target Support Files/Pods-SelfCare/Pods-SelfCare.release.xcconfig"; sourceTree = "<group>"; };
+		B4C4C011DFD6E7433A5668D1 /* Pods_SelfCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84FD25E890972A29EFA3E19 /* Pods-SelfCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCareTests.debug.xcconfig"; path = "Target Support Files/Pods-SelfCareTests/Pods-SelfCareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CF5410711490C6456C9C40 /* Pods_SelfCareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfCareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C4C8E13C1763E15E5B156 /* Pods-SelfCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfCareTests.release.xcconfig"; path = "Target Support Files/Pods-SelfCareTests/Pods-SelfCareTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5020DDF557A37820A27FFF /* Pods_SelfCare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5288F7F75A4BB6624214E83 /* Pods_SelfCareTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +177,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342C546B98123E7FBE52090D /* Pods_SelfCare_SelfCareUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0451D93D24751B93006CC1AD /* Live Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0451D93E24751BB6006CC1AD /* ChatViewController.swift */,
+			);
+			path = "Live Chat";
+			sourceTree = "<group>";
+		};
 		7B35ECD0246926A80022E0EA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +199,8 @@
 				7B35ECF2246926AD0022E0EA /* SelfCareTests */,
 				7B35ECFD246926AD0022E0EA /* SelfCareUITests */,
 				7B35ECDA246926A80022E0EA /* Products */,
+				C983FA830EA7B886B1DFB447 /* Pods */,
+				816E8318374A292F622F512E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +217,12 @@
 		7B35ECDB246926A80022E0EA /* SelfCare */ = {
 			isa = PBXGroup;
 			children = (
-				7B35ECDC246926A80022E0EA /* AppDelegate.swift */,
-				7B35ECDE246926A80022E0EA /* SceneDelegate.swift */,
-				7B35ECE0246926A80022E0EA /* ViewController.swift */,
-				7B35ECE2246926A80022E0EA /* Main.storyboard */,
+				7BA82889247BA487002D0EF6 /* Localization */,
+				7B35ED10246928230022E0EA /* App Delegate */,
+				7B35ED0F246928110022E0EA /* Storyboard */,
+				7B35ED0E246927FF0022E0EA /* Custom Components */,
+				7B35ED0D246927EE0022E0EA /* Utility Classes */,
+				7B35ED0C246927AA0022E0EA /* ViewControllers */,
 				7B35ECE5246926AD0022E0EA /* Assets.xcassets */,
 				7B35ECE7246926AD0022E0EA /* LaunchScreen.storyboard */,
 				7B35ECEA246926AD0022E0EA /* Info.plist */,
@@ -128,6 +248,256 @@
 			path = SelfCareUITests;
 			sourceTree = "<group>";
 		};
+		7B35ED0C246927AA0022E0EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B75C6D3247561ED00736EA8 /* Settings */,
+				0451D93D24751B93006CC1AD /* Live Chat */,
+				7B50E4B82472B82000FAC222 /* Coupons */,
+				7B50E4B52472AF6100FAC222 /* Sign Up */,
+				7B50E4AB24724BC500FAC222 /* Movicel Care */,
+				7BBA9FD8246D182A00C9DFED /* Tabbar */,
+				7B3BF7A9246C219C00A14173 /* Vouchers */,
+				7B3BF7A6246BF4F800A14173 /* AlertPopup */,
+				7BB36DF3246A7FE7009A320F /* Recharge */,
+				7BF9E48724693CA300A440EE /* Dashboard */,
+				7BF9E48624693C8400A440EE /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B35ED0D246927EE0022E0EA /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9E47224692ADF00A440EE /* Constants.swift */,
+				7BF9E47124692ADF00A440EE /* Extensions.swift */,
+				7BF9E46E24692ADF00A440EE /* Singleton.swift */,
+				7BF9E46F24692ADF00A440EE /* Utility.swift */,
+				7BF9E47024692ADF00A440EE /* WebServices.swift */,
+				7BA82890247BC68E002D0EF6 /* BundleExtension.swift */,
+			);
+			path = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		7B35ED0E246927FF0022E0EA /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				7B64E302247CEAB300EFCC5C /* CustomAlertView */,
+				7BF9E4832469301100A440EE /* CircularProgressIndicator */,
+				7BF9E47E24692FE000A440EE /* CustomTextField */,
+				7BF9E47824692B0D00A440EE /* CustomButton.swift */,
+				7BF9E47924692B0D00A440EE /* CustomLabel.swift */,
+				7B7ADB2C2485270F008D6B13 /* CardNumberViewController.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		7B35ED0F246928110022E0EA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B35ECE2246926A80022E0EA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B35ED10246928230022E0EA /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B35ECDC246926A80022E0EA /* AppDelegate.swift */,
+				7B35ECDE246926A80022E0EA /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		7B3BF7A6246BF4F800A14173 /* AlertPopup */ = {
+			isa = PBXGroup;
+			children = (
+				7B3BF7A7246BF51100A14173 /* AlertPopViewController.swift */,
+				7B75C6CF2474F7B200736EA8 /* SearchViewController.swift */,
+			);
+			path = AlertPopup;
+			sourceTree = "<group>";
+		};
+		7B3BF7A9246C219C00A14173 /* Vouchers */ = {
+			isa = PBXGroup;
+			children = (
+				7B5FD56B246D029A00E18E81 /* Vouchers Custom Cells */,
+				7B3BF7AA246C21C500A14173 /* VoucherListViewController.swift */,
+			);
+			path = Vouchers;
+			sourceTree = "<group>";
+		};
+		7B50E4AB24724BC500FAC222 /* Movicel Care */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4AE247251FD00FAC222 /* CustomCellMovicel */,
+				7B50E4AC24724BEC00FAC222 /* MovicelCareVC.swift */,
+				7B50E4B1247277B700FAC222 /* MovicelCareFAQDetailsVC.swift */,
+				7B50E4B324728E7100FAC222 /* TroubleShootVC.swift */,
+				7B10EAC124739AB900FF479F /* MovicelCareLocateUsVC.swift */,
+			);
+			path = "Movicel Care";
+			sourceTree = "<group>";
+		};
+		7B50E4AE247251FD00FAC222 /* CustomCellMovicel */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4AF2472525B00FAC222 /* MovicelCareOptionsCollectionCell.swift */,
+				7B10EAC32473BED500FF479F /* ServiceCenterTableViewCell.swift */,
+			);
+			path = CustomCellMovicel;
+			sourceTree = "<group>";
+		};
+		7B50E4B52472AF6100FAC222 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4B62472AF7C00FAC222 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		7B50E4B82472B82000FAC222 /* Coupons */ = {
+			isa = PBXGroup;
+			children = (
+				7B50E4B92472B83E00FAC222 /* CouponsVC.swift */,
+			);
+			path = Coupons;
+			sourceTree = "<group>";
+		};
+		7B5FD56B246D029A00E18E81 /* Vouchers Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7B5FD56E246D035600E18E81 /* VoucherCustomTableCell.swift */,
+				7BBA9FDD246D42B400C9DFED /* VoucherBuyCustomTableCell.swift */,
+				7B35F083246E53AA00D363F4 /* VoucherHistoryTableViewCell.swift */,
+			);
+			path = "Vouchers Custom Cells";
+			sourceTree = "<group>";
+		};
+		7B64E302247CEAB300EFCC5C /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7B64E303247CEAD000EFCC5C /* CustomAlertView.xib */,
+				7BF9E47A24692B0D00A440EE /* CustomAlertView.swift */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
+		7B75C6D3247561ED00736EA8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7B75C6D42475622500736EA8 /* LanguageSelectionVC.swift */,
+				7B7522EE247669E900D8145C /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7BA82889247BA487002D0EF6 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8288E247BA4F3002D0EF6 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		7BB36DF3246A7FE7009A320F /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				7BB36DF6246A9BB8009A320F /* Custom Cells */,
+				7BB36DF4246A800D009A320F /* RechargeListViewController.swift */,
+				7BB36DFB246AB10A009A320F /* PaymentOptionsVC.swift */,
+				7B3BF7A2246BAE7A00A14173 /* PaymentCardsVC.swift */,
+				7B3BF7A4246BD2D800A14173 /* PaymentSuccessViewController.swift */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		7BB36DF6246A9BB8009A320F /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7BB36DF7246A9BF5009A320F /* RechargeTableViewCell.swift */,
+				7BB36DF9246A9C0B009A320F /* RechargeHeaderTableViewCell.swift */,
+				7B84009F246AC5FA00E0FF27 /* PaymentOptionsCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		7BB4344B246963AE0046FF75 /* Dashboard Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7BB4344E2469640D0046FF75 /* PromotionsCollectionViewCell.swift */,
+				7B49DEE62477936400ED58C4 /* PlansTableViewCell.swift */,
+			);
+			path = "Dashboard Cell";
+			sourceTree = "<group>";
+		};
+		7BBA9FD8246D182A00C9DFED /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7BBA9FDB246D18AE00C9DFED /* TabBarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		7BF9E47E24692FE000A440EE /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9E48024692FFC00A440EE /* CustomTextField.swift */,
+				7BF9E47F24692FFB00A440EE /* CustomTextField.xib */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		7BF9E4832469301100A440EE /* CircularProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9E4842469303000A440EE /* CircularProgressView.swift */,
+			);
+			path = CircularProgressIndicator;
+			sourceTree = "<group>";
+		};
+		7BF9E48624693C8400A440EE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7B35ED11246929010022E0EA /* LoginViewController.swift */,
+				7B75C6D124754F4C00736EA8 /* GuestUserViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7BF9E48724693CA300A440EE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7BB4344B246963AE0046FF75 /* Dashboard Cell */,
+				7BF9E48824693CC900A440EE /* DashboardVC.swift */,
+				7B49DEE42477914100ED58C4 /* PlansViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		816E8318374A292F622F512E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C4C011DFD6E7433A5668D1 /* Pods_SelfCare.framework */,
+				23CCD42AA0B6368BD31B81D2 /* Pods_SelfCare_SelfCareUITests.framework */,
+				F3CF5410711490C6456C9C40 /* Pods_SelfCareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C983FA830EA7B886B1DFB447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A4892CF5D5BD0C62D58E562 /* Pods-SelfCare.debug.xcconfig */,
+				94049DD7DA52AC08C202EF12 /* Pods-SelfCare.release.xcconfig */,
+				7E52C858A1C6FEC572C12819 /* Pods-SelfCare-SelfCareUITests.debug.xcconfig */,
+				1B3E59F512AE5767D94042F0 /* Pods-SelfCare-SelfCareUITests.release.xcconfig */,
+				B84FD25E890972A29EFA3E19 /* Pods-SelfCareTests.debug.xcconfig */,
+				FC8C4C8E13C1763E15E5B156 /* Pods-SelfCareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +505,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B35ED03246926AD0022E0EA /* Build configuration list for PBXNativeTarget "SelfCare" */;
 			buildPhases = (
+				3D2D147CE0891D7C5B16C0B9 /* [CP] Check Pods Manifest.lock */,
 				7B35ECD5246926A80022E0EA /* Sources */,
 				7B35ECD6246926A80022E0EA /* Frameworks */,
 				7B35ECD7246926A80022E0EA /* Resources */,
+				199E736AA4EBDC6D7F340AEF /* [CP] Embed Pods Frameworks */,
+				29F69B6F700178D89F43548A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +525,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B35ED06246926AD0022E0EA /* Build configuration list for PBXNativeTarget "SelfCareTests" */;
 			buildPhases = (
+				0103BCD1AAA4D1ACF0FB08BF /* [CP] Check Pods Manifest.lock */,
 				7B35ECEB246926AD0022E0EA /* Sources */,
 				7B35ECEC246926AD0022E0EA /* Frameworks */,
 				7B35ECED246926AD0022E0EA /* Resources */,
@@ -170,9 +544,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B35ED09246926AD0022E0EA /* Build configuration list for PBXNativeTarget "SelfCareUITests" */;
 			buildPhases = (
+				15E80D01C3D6428860A10402 /* [CP] Check Pods Manifest.lock */,
 				7B35ECF6246926AD0022E0EA /* Sources */,
 				7B35ECF7246926AD0022E0EA /* Frameworks */,
 				7B35ECF8246926AD0022E0EA /* Resources */,
+				3C98BB2BCF77A7CFA95A0766 /* [CP] Embed Pods Frameworks */,
+				0AC9A8DB62038EC91A3A4BE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +591,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
 			);
 			mainGroup = 7B35ECD0246926A80022E0EA;
 			productRefGroup = 7B35ECDA246926A80022E0EA /* Products */;
@@ -232,6 +610,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA8288C247BA4F3002D0EF6 /* Localizable.strings in Resources */,
+				7BF9E48124692FFC00A440EE /* CustomTextField.xib in Resources */,
+				7B64E304247CEAD000EFCC5C /* CustomAlertView.xib in Resources */,
 				7B35ECE9246926AD0022E0EA /* LaunchScreen.storyboard in Resources */,
 				7B35ECE6246926AD0022E0EA /* Assets.xcassets in Resources */,
 				7B35ECE4246926A80022E0EA /* Main.storyboard in Resources */,
@@ -254,14 +635,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0103BCD1AAA4D1ACF0FB08BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfCareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AC9A8DB62038EC91A3A4BE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15E80D01C3D6428860A10402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfCare-SelfCareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199E736AA4EBDC6D7F340AEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F69B6F700178D89F43548A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfCare/Pods-SelfCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C98BB2BCF77A7CFA95A0766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfCare-SelfCareUITests/Pods-SelfCare-SelfCareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2D147CE0891D7C5B16C0B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelfCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B35ECD5246926A80022E0EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B35ECE1246926A80022E0EA /* ViewController.swift in Sources */,
+				7B10EAC42473BED500FF479F /* ServiceCenterTableViewCell.swift in Sources */,
+				7B50E4B72472AF7C00FAC222 /* SignUpViewController.swift in Sources */,
+				7B75C6D224754F4C00736EA8 /* GuestUserViewController.swift in Sources */,
+				7BF9E47424692ADF00A440EE /* Utility.swift in Sources */,
+				7B3BF7AB246C21C500A14173 /* VoucherListViewController.swift in Sources */,
+				7BF9E47C24692B0D00A440EE /* CustomLabel.swift in Sources */,
+				7BF9E47D24692B0D00A440EE /* CustomAlertView.swift in Sources */,
+				7B7522EF247669E900D8145C /* SettingsViewController.swift in Sources */,
+				7B75C6D52475622500736EA8 /* LanguageSelectionVC.swift in Sources */,
+				7B50E4B2247277B700FAC222 /* MovicelCareFAQDetailsVC.swift in Sources */,
+				7B35ED12246929010022E0EA /* LoginViewController.swift in Sources */,
+				7BF9E47B24692B0D00A440EE /* CustomButton.swift in Sources */,
+				7BB4344F2469640D0046FF75 /* PromotionsCollectionViewCell.swift in Sources */,
+				7B35F084246E53AA00D363F4 /* VoucherHistoryTableViewCell.swift in Sources */,
+				7BF9E47524692ADF00A440EE /* WebServices.swift in Sources */,
+				7B50E4B02472525B00FAC222 /* MovicelCareOptionsCollectionCell.swift in Sources */,
+				7B50E4BA2472B83E00FAC222 /* CouponsVC.swift in Sources */,
+				7B49DEE52477914100ED58C4 /* PlansViewController.swift in Sources */,
+				7BF9E47324692ADF00A440EE /* Singleton.swift in Sources */,
+				7B5FD56F246D035600E18E81 /* VoucherCustomTableCell.swift in Sources */,
+				7BBA9FDC246D18AE00C9DFED /* TabBarViewController.swift in Sources */,
+				7B3BF7A3246BAE7A00A14173 /* PaymentCardsVC.swift in Sources */,
 				7B35ECDD246926A80022E0EA /* AppDelegate.swift in Sources */,
+				7BB36DFA246A9C0B009A320F /* RechargeHeaderTableViewCell.swift in Sources */,
+				7BF9E48224692FFC00A440EE /* CustomTextField.swift in Sources */,
+				7B50E4B424728E7200FAC222 /* TroubleShootVC.swift in Sources */,
+				7BBA9FDE246D42B400C9DFED /* VoucherBuyCustomTableCell.swift in Sources */,
+				7B3BF7A8246BF51200A14173 /* AlertPopViewController.swift in Sources */,
+				7BF9E48924693CC900A440EE /* DashboardVC.swift in Sources */,
 				7B35ECDF246926A80022E0EA /* SceneDelegate.swift in Sources */,
+				7B75C6D02474F7B200736EA8 /* SearchViewController.swift in Sources */,
+				7B10EAC224739AB900FF479F /* MovicelCareLocateUsVC.swift in Sources */,
+				7BF9E47624692ADF00A440EE /* Extensions.swift in Sources */,
+				7BF9E4852469303000A440EE /* CircularProgressView.swift in Sources */,
+				0451D93F24751BB6006CC1AD /* ChatViewController.swift in Sources */,
+				7B49DEE72477936400ED58C4 /* PlansTableViewCell.swift in Sources */,
+				7B7ADB2D2485270F008D6B13 /* CardNumberViewController.swift in Sources */,
+				7BB36DFC246AB10A009A320F /* PaymentOptionsVC.swift in Sources */,
+				7BB36DF5246A800D009A320F /* RechargeListViewController.swift in Sources */,
+				7B50E4AD24724BEC00FAC222 /* MovicelCareVC.swift in Sources */,
+				7B8400A0246AC5FA00E0FF27 /* PaymentOptionsCell.swift in Sources */,
+				7BF9E47724692ADF00A440EE /* Constants.swift in Sources */,
+				7BB36DF8246A9BF5009A320F /* RechargeTableViewCell.swift in Sources */,
+				7B3BF7A5246BD2D800A14173 /* PaymentSuccessViewController.swift in Sources */,
+				7BA82891247BC68E002D0EF6 /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +861,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B35ECE3246926A80022E0EA /* Base */,
+				7BA82887247BA42F002D0EF6 /* pt-PT */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +870,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B35ECE8246926AD0022E0EA /* Base */,
+				7BA82888247BA430002D0EF6 /* pt-PT */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA8288E247BA4F3002D0EF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA8288D247BA4F3002D0EF6 /* pt-PT */,
+				7BA8288F247BA4FD002D0EF6 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +891,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +952,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,11 +1005,13 @@
 		};
 		7B35ED04246926AD0022E0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4892CF5D5BD0C62D58E562 /* Pods-SelfCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74ZLPPWJA6;
 				INFOPLIST_FILE = SelfCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +1025,13 @@
 		};
 		7B35ED05246926AD0022E0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94049DD7DA52AC08C202EF12 /* Pods-SelfCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74ZLPPWJA6;
 				INFOPLIST_FILE = SelfCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +1045,7 @@
 		};
 		7B35ED07246926AD0022E0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84FD25E890972A29EFA3E19 /* Pods-SelfCareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +1068,7 @@
 		};
 		7B35ED08246926AD0022E0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8C4C8E13C1763E15E5B156 /* Pods-SelfCareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +1091,7 @@
 		};
 		7B35ED0A246926AD0022E0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E52C858A1C6FEC572C12819 /* Pods-SelfCare-SelfCareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +1112,7 @@
 		};
 		7B35ED0B246926AD0022E0EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3E59F512AE5767D94042F0 /* Pods-SelfCare-SelfCareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

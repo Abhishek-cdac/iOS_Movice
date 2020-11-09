@@ -8,17 +8,29 @@
 
 import UIKit
 
-class PlansTableViewCell: UITableViewCell {
+protocol PlansDelegate: NSObject {
+    func downBtnAction(indexPath: Int)
+}
 
+class PlansTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var baseView: UIView!
+    @IBOutlet weak var headerLabel: UILabel!
+    @IBOutlet weak var downBtn: UIButton!
+    
+    var index: Int?
+    
+    var plansDelegate: PlansDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
+    
+    @IBAction func downBtnClicked(_ sender: UIButton) {
+        plansDelegate?.downBtnAction(indexPath: index ?? 0)
+    }
 }

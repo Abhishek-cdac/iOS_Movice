@@ -32,11 +32,18 @@ class Singleton: NSObject {
     
     var authKey: String = ""
     var clientName: String = ""
+    
+    var contactNo : String = ""
+    var userNameStr : String = ""
+    var emailIdStr : String = ""
+    var password = ""
+    var isGuestLogin = false
+    
     var isAdmin = false
     
     var selectedEnviornment = ""
     
-    var loginObject: LoginModel?
+//    var loginObject: LoginModel?
     
     let currentDevice = UIDevice.current.userInterfaceIdiom
     

@@ -35,7 +35,7 @@ class AlertPopViewController: UIViewController {
     var selectedContentElement = ""
     var selectedContentSubElement = ""
 
-    var dataArray = [String]()
+    var dataArray: [String] = Constants.HardcodedData.monthsArray
     var dataIntArray = [Int]()
     var dataSubIntArray = [Int]()
 
@@ -58,17 +58,30 @@ class AlertPopViewController: UIViewController {
     
     func setUpView(){
         
-        if selectedComponent == "Birthday" {
-            UIView.animate(withDuration: 0.5) {
-                self.baseViewTopConstriant.constant = 20
-                self.HeightBaseViewTopConstraint.constant = 1000
-            }
-        }else if selectedComponent == "Weight" {
+        if selectedComponent == "Month".localised() {
             UIView.animate(withDuration: 0.5) {
                 self.baseViewTopConstriant.constant = 1000
                 self.HeightBaseViewTopConstraint.constant = 20
                 
-                self.selectContentNameLbl.text = "Select Weight"
+                self.selectContentNameLbl.text = "Select Month".localised()
+                self.pickerView1Array = self.dataArray
+                self.pickerView1.reloadAllComponents()
+            }
+        }else if selectedComponent == "Year".localised() {
+            UIView.animate(withDuration: 0.5) {
+                self.baseViewTopConstriant.constant = 1000
+                self.HeightBaseViewTopConstraint.constant = 20
+                
+                self.selectContentNameLbl.text = "Select Year".localised()
+                self.pickerView1Array = Constants.HardcodedData.yearArray
+                self.pickerView1.reloadAllComponents()
+            }
+        }else if selectedComponent == "Weight".localised() {
+            UIView.animate(withDuration: 0.5) {
+                self.baseViewTopConstriant.constant = 1000
+                self.HeightBaseViewTopConstraint.constant = 20
+                
+                self.selectContentNameLbl.text = "Select Weight".localised()
                 self.selectHeightLabel.text = "Kilograms"
                 self.selectedComponentValue = "Kilograms"
                  
@@ -118,11 +131,14 @@ class AlertPopViewController: UIViewController {
     
     @IBAction func saveBtnClicked(_ sender: CustomButton) {
         
-        if selectedComponent == "Birthday" {
-            let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy-MM-dd"
-            let selectedDate = formatter.string(from: datePicker.date)
-            self.didDateSelectionCompleted!(selectedDate)
+        if selectedComponent == "Month".localised() {
+            
+            self.didDateSelectionCompleted!(selectedContentElement)
+            dismiss(animated: true, completion: nil)
+            
+        }else if selectedComponent == "Year".localised() {
+            
+            self.didDateSelectionCompleted!(selectedContentElement)
             dismiss(animated: true, completion: nil)
             
         }else if selectedComponent == "Height" {
@@ -335,8 +351,9 @@ extension AlertPopViewController : UIPickerViewDelegate,UIPickerViewDataSource {
             }else {
                 return 2
             }
+        }else {
+            return 1
         }
-        return 0
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -357,9 +374,10 @@ extension AlertPopViewController : UIPickerViewDelegate,UIPickerViewDataSource {
                     return pickerView2Array.count
                 }
             }
+        }else {
+            return pickerView1Array.count
         }
-
-       return 0
+        return 0
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
@@ -401,6 +419,8 @@ extension AlertPopViewController : UIPickerViewDelegate,UIPickerViewDataSource {
                     selectedContentSubElement = pickerView2Array[row]
                 }
             }
+        }else {
+            selectedContentElement = pickerView1Array[row]
         }
     }
 }

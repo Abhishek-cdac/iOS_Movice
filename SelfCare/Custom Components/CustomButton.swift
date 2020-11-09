@@ -19,7 +19,6 @@ class CustomButton: UIButton {
         set {
             self.titleLabel?.font = UIFont.init(name: Constants.Fonts.lato_Bold, size: newValue)
         }
-        
     }
     
     @IBInspectable var bgColor: UIColor = UIColor.init(hexString: Constants.HexColors.activeColor){
@@ -57,7 +56,6 @@ class CustomButton: UIButton {
         self.setTitleColor(UIColor.white, for: .normal)
         self.setTitle(self.currentTitle?.uppercased(), for: .normal)
         self.titleLabel?.font = UIFont.init(name: Constants.Fonts.lato_Bold, size: titleSize)
-
     }
     
     func isEnabled(enabled: Bool) {
